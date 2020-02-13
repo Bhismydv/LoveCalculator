@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/screen"
+    tools:context=".LoveCalculator">
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#db397f"
+android:textStyle="italic"
+android:textSize="30sp"
+android:layout_marginTop="5dp"
+        android:layout_height="55dp"
+        android:hint="Enter Your Name"/>
+
+    <EditText
+        android:id="@+id/et2"
+android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:background="#db397f"
+        android:layout_marginTop="160dp"
+        android:layout_height="55dp"
+        android:hint="Enter Partner Name"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#170d10"
+        android:layout_marginTop="320dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:background="#f54263"
+android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:text="Calculate"/>
+
+</RelativeLayout>
